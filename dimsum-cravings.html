@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dimsum Cravings - Changie Food Center</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #fdbb2d; /* Yellow color for the title */
+            font-size: 36px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+            max-width: 900px; /* Ensures the items are centered */
+            margin: 0 auto; /* Centers the grid on the page */
+        }
+
+        .menu-item {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.2s;
+        }
+
+        .menu-item img {
+            width: 200px; /* Fixed width for the images */
+            height: 150px; /* Fixed height for the images */
+            object-fit: cover; /* Ensures the images cover the specified dimensions without distortion */
+            border-radius: 8px 8px 0 0;
+        }
+
+        .menu-item .title {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0;
+            color: #d9232d;
+        }
+
+        .menu-item .price {
+            color: #333;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="home.html">
+            <img src="images/Logo.png" alt="Logo" class="logo-img">
+        </a>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="promos.html">Promos</a>
+    </header>
+
+    <h1>Dimsum Cravings</h1>
+    <div class="container">
+        <!-- Menu Item 1 -->
+        <div class="menu-item">
+            <img src="images/sheng.jpg" alt="Burger Steak">
+            <div class="title">Fried Sheng Jian Bao</div>
+            <div class="price">10/8/6 pieces</div>
+            <div class="price">₱208.00 | ₱178.00 | ₱138.00</div>
+        </div>
+
+        <!-- Menu Item 2 -->
+        <div class="menu-item">
+            <img src="images/dumpling.jpg" alt="Burger Steak with Spaghetti">
+            <div class="title">Fried Dumplings</div>
+            <div class="price">10/8/6 pieces</div>
+            <div class="price">₱208.00 | ₱178.00 | ₱138.00</div>
+        </div>
+
+        <!-- Menu Item 8 -->
+        <div class="menu-item">
+            <img src="images/combo.jpg" alt="Solo Spaghetti">
+            <div class="title">Combo Dimsum</div>
+            <div class="price">10/8 pieces</div>
+            <div class="price">₱208.00 | ₱178.00</div>
+        </div>
+    </div>
+
+    <footer>
+        <a href="https://www.facebook.com/MyChangieFriedChicken" target="_blank">
+            <img src="images/FacebookLogo.png" alt="Facebook" class="social-icon">
+        </a>
+        <a href="https://www.instagram.com/changie.food.center" target="_blank">
+            <img src="images/InstagramLogo.png" alt="Instagram" class="social-icon">
+        </a>
+        <a href="https://www.tiktok.com/@changiefoodcenter?lang=en" target="_blank">
+            <img src="images/TikTokLogo.png" alt="TikTok" class="social-icon">
+        </a>
+        <p>Contact us</p>
+    </footer>
+</body>
+</html>
